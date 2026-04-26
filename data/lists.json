@@ -1,0 +1,133 @@
+{
+  "stats": [
+    { "value": "150", "label": "convives assis", "suffix": "" },
+    { "value": "180", "label": "en cocktail", "suffix": "" },
+    { "value": "200", "label": "m² bergerie", "suffix": "" },
+    { "value": "75", "label": "m² auvent couvert", "suffix": "" }
+  ],
+  "features": [
+    {
+      "title": "Cadre Historique Unique",
+      "description": "Ancienne ferme fortifiée féodale avec colombier du XIIIe siècle, douves et bâtissons de diverses époques. Un décor authentique impossible à reproduire."
+    },
+    {
+      "title": "Parc Clos & Boisé",
+      "description": "La bergerie est implantée dans un parc privé clos et boisé, offrant une intimité totale et un cadre verdoyant pour vos cérémonies en plein air et vos photos."
+    },
+    {
+      "title": "Salle de 200 m²",
+      "description": "Une ancienne bergerie rénovée de 200 m², lumineuse et modulable, pour accueillir vos mariages, réceptions de famille, séminaires et événements professionnels."
+    },
+    {
+      "title": "Proche de Paris",
+      "description": "Situé à Fontenay-Trésigny (77610), au cœur de la Brie Boisée, directement accessible par la Nationale 4 — à deux pas de Paris sans quitter la campagne."
+    },
+    {
+      "title": "Tous Types d'Événements",
+      "description": "Mariages, réceptions de famille, séminaires, vins d'honneur, cocktails, buffets, dîners, anniversaires — nous adaptons l'espace à votre projet."
+    },
+    {
+      "title": "Accueil Personnalisé",
+      "description": "Véronique et Christophe Meurillon vous accompagnent avec bienveillance et expérience pour que chaque événement soit à la hauteur de vos attentes."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Marie & Julien",
+      "date": "Juin 2024",
+      "rating": 5,
+      "text": "Un endroit absolument magique. La ferme est d'une beauté rare et l'ambiance historique a rendu notre mariage encore plus unique. Véronique et Christophe sont des hôtes extraordinaires."
+    },
+    {
+      "name": "Sophie & Thomas",
+      "date": "Septembre 2023",
+      "rating": 5,
+      "text": "Nous avons été conquis dès la première visite. Le colombier, les douves, le parc boisé... Tout respire l'authenticité. Nos invités ont encore des étoiles dans les yeux !"
+    },
+    {
+      "name": "Famille Beaumont",
+      "date": "Juillet 2023",
+      "rating": 5,
+      "text": "Lieu parfait pour nos retrouvailles familiales. Cadre intimiste et verdoyant, accueil chaleureux. On reviendra sans hésiter pour notre prochain événement."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel type d'événements pouvez-vous accueillir ?",
+      "answer": "Le Clos du Colombier est adapté pour les mariages, réceptions de famille, séminaires professionnels, vins d'honneur, cocktails, buffets, dîners, anniversaires et tout autre événement festif ou professionnel."
+    },
+    {
+      "question": "Où se situe le Clos du Colombier ?",
+      "answer": "Nous sommes situés à Malassise, 77610 Fontenay-Trésigny, en Seine-et-Marne. Le lieu est accessible directement par la Nationale 4, au cœur de la Brie Boisée, à quelques kilomètres de Paris."
+    },
+    {
+      "question": "Quelle est la superficie de la salle ?",
+      "answer": "Notre salle principale, ancienne bergerie rénovée, mesure 200 m². Elle est complétée par un parc clos et boisé pour vos cérémonies en plein air et vins d'honneur."
+    },
+    {
+      "question": "Comment réserver et visiter le lieu ?",
+      "answer": "Contactez-nous par téléphone au 07 62 44 12 12 ou par e-mail à closducolombier77@gmail.com. Nous vous proposerons une visite de la Ferme de Malassise pour que vous puissiez imaginer votre événement dans ce cadre unique."
+    },
+    {
+      "question": "Le lieu est-il disponible toute l'année ?",
+      "answer": "Oui, le Clos du Colombier est ouvert toute l'année pour accueillir vos événements, que ce soit en été dans notre parc boisé ou en hiver dans notre bergerie chaleureuse."
+    },
+    {
+      "question": "Peut-on organiser la cérémonie en plein air ?",
+      "answer": "Absolument. Notre parc clos et boisé est idéal pour les cérémonies laïques en plein air, les vins d'honneur et les cocktails, avec un cadre naturel et préservé qui ravira vos convives."
+    },
+    {
+      "question": "Quels sont vos tarifs ?",
+      "answer": "Nos tarifs sont personnalisés selon la nature de votre événement, le nombre d'invités et la date souhaitée. Contactez-nous pour obtenir un devis adapté à votre projet."
+    },
+    {
+      "question": "Y a-t-il un parking sur place ?",
+      "answer": "Oui, le domaine dispose d'un parking privatif accessible depuis la Nationale 4. N'hésitez pas à nous contacter pour plus de détails sur l'accès au lieu."
+    }
+  ],
+  "salleSpaces": [
+    {
+      "title": "La Bergerie",
+      "capacity": "Salle principale",
+      "area": "200 m²",
+      "description": "Ancienne bergerie de la Ferme de Malassise, rénovée avec soin pour allier le charme de la pierre ancienne au confort moderne. Un espace chaleureux et modulable.",
+      "features": ["200 m² de surface", "Pierre apparente authentique", "Modulable selon votre projet", "Lumineuse et chaleureuse", "Accès direct au parc", "Disponible toute l'année"]
+    },
+    {
+      "title": "Le Parc Clos & Boisé",
+      "capacity": "Espace extérieur",
+      "area": "Privatisé",
+      "description": "Un parc privé clos et arboré entourant la bergerie, idéal pour vos cérémonies laïques, vins d'honneur, cocktails et séances photos dans un cadre verdoyant.",
+      "features": ["Parc entièrement privatisé", "Cadre boisé et intime", "Cérémonie laïque possible", "Vin d'honneur & cocktails", "Séances photos naturelles", "Ambiance champêtre"]
+    },
+    {
+      "title": "Le Colombier du XIIIe siècle",
+      "capacity": "Patrimoine historique",
+      "area": "Monument",
+      "description": "Qui donne son nom au domaine, ce colombier médiéval est un vestige remarquable de l'ancienne ferme fortifiée féodale, offrant un arrière-plan photographique unique.",
+      "features": ["Architecture médiévale authentique", "XIIIe siècle préservé", "Arrière-plan photo unique", "Douves historiques", "Caractère féodal exceptionnel", "Ferme de Malassise"]
+    }
+  ],
+  "salleServices": [
+    { "title": "Mariages", "text": "Cérémonie, vin d'honneur, dîner, soirée — le Clos du Colombier s'adapte à toutes les étapes de votre plus beau jour." },
+    { "title": "Réceptions de famille", "text": "Anniversaires, baptêmes, communions, retrouvailles — un cadre intimiste pour rassembler vos proches." },
+    { "title": "Événements professionnels", "text": "Séminaires, team building, repas d'affaires — un lieu atypique qui marque les esprits." },
+    { "title": "Vins d'honneur & cocktails", "text": "Cocktails et vins d'honneur dans notre parc boisé ou dans la bergerie, selon la saison." },
+    { "title": "Buffets & dîners", "text": "Repas conviviaux pour vos invités dans un cadre historique et chaleureux." },
+    { "title": "Séances photos", "text": "Le colombier, les douves et le parc boisé offrent des décors photo exceptionnels pour immortaliser votre événement." }
+  ],
+  "accesMethodes": [
+    {
+      "title": "En voiture",
+      "lines": ["Depuis Paris : Nationale 4 direction Coulommiers", "Sortie Fontenay-Trésigny", "Malassise, 77610 Fontenay-Trésigny", "Parking privatif sur place"]
+    },
+    {
+      "title": "En train",
+      "lines": ["Depuis Paris Gare de l'Est", "Direction Provins ou Coulommiers", "Gare de Fontenay-Trésigny", "Taxi ou navette depuis la gare"]
+    },
+    {
+      "title": "GPS & coordonnées",
+      "lines": ["Latitude : 48.687664", "Longitude : 2.888494", "Malassise, 77610 Fontenay-Trésigny", "Brie Boisée, Seine-et-Marne (77)"]
+    }
+  ]
+}

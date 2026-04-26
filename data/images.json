@@ -1,0 +1,17 @@
+{
+  "heroBackground": "/images/hero/20190507-mavrf-0307-00m00_ls.jpg",
+  "aboutMain": "/images/gallery/se_caro_1.jpg",
+  "ctaBackground": "/images/gallery/p_ar-190706-15-38-03.jpg",
+  "salleHero": "/images/gallery/s1_20150509-0343lt.jpg",
+  "galerieHero": "/images/gallery/se_20190507-mavrf-0307-00m00_ls.jpg",
+  "localisationHero": "/images/gallery/se3_150905-1678.jpg",
+  "contactHero": "/images/gallery/p_caro_3.jpg",
+  "galleryPreview": [
+    "/images/gallery/s1_20150509-0343lt.jpg",
+    "/images/gallery/se_caro_1.jpg",
+    "/images/gallery/ce_20190413_2716.jpg",
+    "/images/gallery/p_ar-190706-15-38-03.jpg",
+    "/images/gallery/se_20190507-mavrf-0307-00m00_ls.jpg",
+    "/images/gallery/s3_150905-1618.jpg"
+  ]
+}
