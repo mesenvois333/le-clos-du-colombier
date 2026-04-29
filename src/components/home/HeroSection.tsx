@@ -10,16 +10,34 @@ interface Props {
 export default function HeroSection({ content, bgImage }: Props) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Full-bleed background */}
+      {/* Full-bleed background — naturally bright sun-flared base, gentle tonal touch */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('${bgImage}')` }}
+        style={{
+          backgroundImage: `url('${bgImage}')`,
+          filter: "brightness(1.04) saturate(0.95) contrast(0.96) sepia(0.04)",
+        }}
         aria-hidden="true"
       />
-      {/* Refined overlay — not heavy navy, just a clean dark */}
-      <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
-      {/* Subtle vignette at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black/30 to-transparent" aria-hidden="true" />
+      {/* Layer A — champagne-gold diffusion wash (soft-light blend) */}
+      <div
+        className="absolute inset-0 bg-[#E8C892]/15"
+        style={{ mixBlendMode: "soft-light" }}
+        aria-hidden="true"
+      />
+      {/* Layer B — readability tint for white text contrast on a bright base */}
+      <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
+      {/* Layer C — top-center radial champagne glow */}
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage:
+            "radial-gradient(ellipse at top, rgba(232,200,146,0.22) 0%, rgba(232,200,146,0.06) 35%, transparent 70%)",
+        }}
+        aria-hidden="true"
+      />
+      {/* Warm bottom vignette */}
+      <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-[#3a2a16]/35 to-transparent" aria-hidden="true" />
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto pt-20">

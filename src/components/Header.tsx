@@ -37,7 +37,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex flex-col items-start shrink-0">
               <span
-                className={`font-display text-lg font-medium tracking-widest transition-colors leading-tight ${
+                className={`font-display text-xl font-medium tracking-widest transition-colors leading-tight ${
                   scrolled ? "text-[#1A1A1A]" : "text-white"
                 }`}
                 style={{ fontStyle: "normal" }}
@@ -45,7 +45,7 @@ export default function Header() {
                 Le Clos du Colombier
               </span>
               <span
-                className={`font-body text-[9px] tracking-[0.3em] uppercase transition-colors mt-0.5 ${
+                className={`font-body text-[11px] tracking-[0.3em] uppercase transition-colors mt-0.5 ${
                   scrolled ? "text-[#8B6947]" : "text-white/60"
                 }`}
               >
@@ -59,7 +59,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`font-body text-[11px] tracking-[0.12em] uppercase font-medium transition-colors ${
+                  className={`font-body text-[13px] tracking-[0.12em] uppercase font-medium transition-colors ${
                     scrolled
                       ? "text-[#2C2C2C] hover:text-[#8B6947]"
                       : "text-white/80 hover:text-white"
@@ -70,7 +70,7 @@ export default function Header() {
               ))}
               <Link
                 href="/contact"
-                className={`ml-2 px-5 py-2.5 text-[11px] font-body font-medium tracking-[0.12em] uppercase transition-all duration-300 ${
+                className={`ml-2 px-5 py-2.5 text-[13px] font-body font-medium tracking-[0.12em] uppercase transition-all duration-300 ${
                   scrolled
                     ? "bg-[#8B6947] text-white hover:bg-[#1A1A1A]"
                     : "bg-white/15 text-white border border-white/30 hover:bg-white/25 backdrop-blur-sm"
@@ -105,7 +105,7 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="py-3 font-body text-[11px] tracking-[0.15em] uppercase text-[#2C2C2C] border-b border-[#E4E1DB] hover:text-[#8B6947] transition-colors"
+                className="py-3 font-body text-[13px] tracking-[0.15em] uppercase text-[#2C2C2C] border-b border-[#E4E1DB] hover:text-[#8B6947] transition-colors"
               >
                 {link.label}
               </Link>
@@ -113,7 +113,7 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setIsOpen(false)}
-              className="mt-4 py-3.5 text-center bg-[#8B6947] text-white font-body text-[11px] tracking-[0.15em] uppercase hover:bg-[#1A1A1A] transition-colors"
+              className="mt-4 py-3.5 text-center bg-[#8B6947] text-white font-body text-[13px] tracking-[0.15em] uppercase hover:bg-[#1A1A1A] transition-colors"
             >
               Réserver
             </Link>

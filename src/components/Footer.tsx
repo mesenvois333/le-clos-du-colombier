@@ -52,9 +52,9 @@ export default function Footer({ footer: f, contact: c }: FooterProps = {}) {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-5">
-            <h3 className="font-display text-2xl font-light text-white tracking-wide mb-1">{brandName}</h3>
-            <p className="font-body text-[9px] tracking-[0.3em] uppercase text-[#8B6947] mb-5">{brandTagline}</p>
-            <p className="font-body text-sm leading-relaxed text-white/40 mb-8 max-w-xs">{brandDescription}</p>
+            <h3 className="font-display text-3xl font-light text-white tracking-wide mb-1">{brandName}</h3>
+            <p className="font-body text-[11px] tracking-[0.3em] uppercase text-[#8B6947] mb-5">{brandTagline}</p>
+            <p className="font-body text-base leading-relaxed text-white/40 mb-8 max-w-xs">{brandDescription}</p>
             <div className="flex gap-3">
               {[
                 { href: instagramUrl, label: "Instagram", Icon: IconInstagram },
@@ -77,7 +77,7 @@ export default function Footer({ footer: f, contact: c }: FooterProps = {}) {
 
           {/* Navigation */}
           <div className="md:col-span-3">
-            <h4 className="font-body text-[10px] font-medium tracking-[0.25em] uppercase text-white/50 mb-6">Navigation</h4>
+            <h4 className="font-body text-[12px] font-medium tracking-[0.25em] uppercase text-white/50 mb-6">Navigation</h4>
             <ul className="space-y-3">
               {[
                 { href: "/", label: "Accueil" },
@@ -89,7 +89,7 @@ export default function Footer({ footer: f, contact: c }: FooterProps = {}) {
                 { href: "/mentions-legales", label: "Mentions Légales" },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="font-body text-sm text-white/35 hover:text-[#C9A882] transition-colors">
+                  <Link href={link.href} className="font-body text-base text-white/35 hover:text-[#C9A882] transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -99,22 +99,22 @@ export default function Footer({ footer: f, contact: c }: FooterProps = {}) {
 
           {/* Contact */}
           <div className="md:col-span-4">
-            <h4 className="font-body text-[10px] font-medium tracking-[0.25em] uppercase text-white/50 mb-6">Contact</h4>
+            <h4 className="font-body text-[12px] font-medium tracking-[0.25em] uppercase text-white/50 mb-6">Contact</h4>
             <ul className="space-y-5">
-              <li className="flex items-start gap-3 text-sm text-white/40">
-                <MapPin size={14} className="text-[#8B6947] mt-0.5 shrink-0" />
+              <li className="flex items-start gap-3 text-base text-white/40">
+                <MapPin size={16} className="text-[#8B6947] mt-0.5 shrink-0" />
                 <span className="font-body">
                   {adresse}<br />
                   {ville}<br />
-                  <span className="text-white/25 text-xs">{adresseNote}</span>
+                  <span className="text-white/25 text-sm">{adresseNote}</span>
                 </span>
               </li>
-              <li className="flex items-center gap-3 text-sm">
-                <Phone size={14} className="text-[#8B6947] shrink-0" />
+              <li className="flex items-center gap-3 text-base">
+                <Phone size={16} className="text-[#8B6947] shrink-0" />
                 <a href="tel:+33762441212" className="font-body text-white/40 hover:text-[#C9A882] transition-colors">{telephone}</a>
               </li>
-              <li className="flex items-center gap-3 text-sm">
-                <Mail size={14} className="text-[#8B6947] shrink-0" />
+              <li className="flex items-center gap-3 text-base">
+                <Mail size={16} className="text-[#8B6947] shrink-0" />
                 <a href={`mailto:${email}`} className="font-body text-white/40 hover:text-[#C9A882] transition-colors break-all">{email}</a>
               </li>
             </ul>
